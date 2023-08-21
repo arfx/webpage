@@ -1,2 +1,0 @@
-### Blender
-parent: Software

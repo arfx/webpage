@@ -1,5 +1,0 @@
-#learn #obsidian
-
-```query
-Ping
-```
