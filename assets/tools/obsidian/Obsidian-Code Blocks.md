@@ -1,4 +1,11 @@
-#learn #obsidian 
+---
+%% type : Note
+Tags: 
+---
+# Obsidian - Codeblocks
+
+#learn #obsidian
+
 
 >[!describe]
 >	```(language)(markdown, c++, js, python)

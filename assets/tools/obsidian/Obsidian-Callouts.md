@@ -1,4 +1,12 @@
+---
+%% type : Note
+Tags: 
+---
+# Obsidian - Callouts
+
 #learn #obsidian
+
+
 >[!tip] unfold
 >that is a tip
 
