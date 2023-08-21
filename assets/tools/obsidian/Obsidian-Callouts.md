@@ -1,6 +1,6 @@
 ---
 %% type : Note
-Tags: 
+Tags: learn, obsidian
 ---
 # Obsidian - Callouts
 

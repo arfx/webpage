@@ -1,6 +1,6 @@
 ---
-%% type : Note
-Tags: 
+type : Note
+Tags: learn, obsidian
 ---
 # Obsidian - Checkboxs
 
