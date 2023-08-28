@@ -1,3 +1,10 @@
+---
+layout: default
+title: World Position Offset - Building Deformation
+parent: AkiraBomb
+nav_order: 1
+---
+
 # World Position Offset - Building Deformation
 
 - set position from 3D Sphere Mask for the Building Position via [Collection Parameter](https://www.unrealengine.com/en-US/blog/material-parameter-collections) which was then via Blueprint Construction Script set where the white Sphere is

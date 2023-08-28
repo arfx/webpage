@@ -1,3 +1,10 @@
+---
+layout: default
+title: Niagara Fluids - Clouds Motion
+parent: AkiraBomb
+nav_order: 3
+---
+
 # Niagara Fluids - Clouds Motion
 
 One completely new item I never got around to trying out in the last few years was the Niagara Fluids from the last Unreal Engine versions.

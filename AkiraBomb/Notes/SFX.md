@@ -1,3 +1,10 @@
+---
+layout: default
+title: SFX
+parent: AkiraBomb
+nav_order: 4
+---
+
 # SFX
 
 For the final release, the video would need audio or sound effects (SFX). However, this is an area where I had my weaknesses and lack of experience. So, I recognize in the process of that Sequence that this poses another completely new challenge for me.

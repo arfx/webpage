@@ -1,3 +1,10 @@
+---
+layout: default
+title: Procedural City Generation
+parent: AkiraBomb
+nav_order: 2
+---
+
 # Procedural City Generation
 
 For the buildings, I quickly know that I wanted/need to have a procedural approach. Since I was interested in procedural buildings before, I was already familiar with some methods.

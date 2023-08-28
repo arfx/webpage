@@ -1,3 +1,10 @@
+---
+layout: default
+title: Impact Frames
+parent: AkiraBomb
+nav_order: 5
+---
+
 # Impact Frames
 
 Since I love Impact Frames, I was very early ready to invest more time in it as well.

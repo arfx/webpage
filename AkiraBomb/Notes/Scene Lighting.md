@@ -1,3 +1,10 @@
+---
+layout: default
+title: Scene Lighting
+parent: AkiraBomb
+nav_order: 6
+---
+
 # Scene Lighting
 
 For the Scene Lighting, I had at the beginning really a direction in my mind. From the original Scene Reference, there is a different version already. The Movie has a more daylight approach and gets darker over the sequence. For the Manga, it´s always quite dark but still, there are some shades visible.
