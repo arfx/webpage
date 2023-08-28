@@ -9,15 +9,15 @@ nav_order: 2
 
 
 <p align="center"> 
-   <img src="Notes/Source/Final/Akira-Bomb-UE5-verysmall.gif" width="1200"> 
+   <img src="Source/Final/Akira-Bomb-UE5-verysmall.gif" width="1200"> 
 </p>
 
 
-|[High-Quality Gif](https://github.com/arfx/webpage/AkiraBomb/blob/main/Notes/Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400)|
+|[High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400)|
 |---|---|
 
 
-<!--- ![Final - Video with Audio](Notes/Source/Final/Akira-Bomb-UE5.mov) --->
+<!--- ![Final - Video with Audio](Source/Final/Akira-Bomb-UE5.mov) --->
 
 
 ---
@@ -31,11 +31,21 @@ nav_order: 2
 - [Production](#production)
   * 🌍 [World Position Offset - Building Deformation](#-world-position-offset---building-deformation)
   * 🏬 [Procedural City Generation](#-procedural-city-generation)
+    + [multiple Methods](#multiple-methods)
+    + [In Engine Procedural Creation (UE5)](#in-engine-procedural-creation--ue5-)
+    + [Prebuild Asset](#prebuild-asset)
+      - [Blender (GeoNodes)](#-blender--geonodes-)
+      - [Houdini](#-houdini)
   * ☁️ [Niagara Fluids - Clouds Motion](#-niagara-fluids---clouds-motion)
 - [Challenges - Struggle](#challenges---struggle)
   * 🎵 [SFX](#-sfx)
   * 💥 [Impact Frames](#-impact-frames)
+    + [Reference - Impact Frame](#reference---impact-frame)
+    + [Engine Shader - Post Effect](#engine-shader---post-effect)
+    + [Drawing](#drawing)
   * ⛅ [Scene Lighting](#-scene-lighting)
+    + [Reference - Lightning](#reference---lightning)
+    + [Lightning](#lightning)
 - [Post Production](#post-production)
 
 
@@ -54,10 +64,10 @@ I believe anyone who has seen the film "Akira" was deeply impacted by this parti
 Since then, this special shot has never left my mind. I often find myself using that Sequence for small test projects or to explore new techniques and styles. It has become my go-to reference.
 
 <p align="center" width="100%">
-    <img width="24%" src="Notes/Source/BS/BS-01.gif">
-    <img width="24%" src="Notes/Source/BS/BS-02.png">
-    <img width="24%" src="Notes/Source/BS/BS-03.png">
-    <img width="24%" src="Notes/Source/BS/BS-04.gif">
+    <img width="24%" src="Source/BS/BS-01.gif">
+    <img width="24%" src="Source/BS/BS-02.png">
+    <img width="24%" src="Source/BS/BS-03.png">
+    <img width="24%" src="Source/BS/BS-04.gif">
 </p>
 
 This time, I set out with a clear goal in mind
@@ -82,22 +92,22 @@ Furthermore, I had always imagined a genuine distortion and resolution of the bu
     
 Akira Movie
 <p align="center" width="100%">
-    <img width="29%" src="Notes/Source/References/ROS-01.gif">
-    <img width="40%" src="Notes/Source/References/ROS-02.gif">
-    <img width="29%" src="Notes/Source/References/ROS-03.gif">
+    <img width="29%" src="Source/References/ROS-01.gif">
+    <img width="40%" src="Source/References/ROS-02.gif">
+    <img width="29%" src="Source/References/ROS-03.gif">
 </p>
 
 Akira Manga
 <p align="center" width="100%">
-    <img width="39%" src="Notes/Source/References/ROS-04.jpg">
-    <img width="59%" src="Notes/Source/References/ROS-05.jpg">
+    <img width="39%" src="Source/References/ROS-04.jpg">
+    <img width="59%" src="Source/References/ROS-05.jpg">
 </p>
 
 others
 <p align="center" width="100%">
-    <img width="52%" src="Notes/Source/References/ROS-06.png"> 
-    <img width="28%" src="Notes/Source/References/ROS-07.gif">
-    <img width="18%" src="Notes/Source/References/ROS-08.gif">
+    <img width="52%" src="Source/References/ROS-06.png"> 
+    <img width="28%" src="Source/References/ROS-07.gif">
+    <img width="18%" src="Source/References/ROS-08.gif">
 </p>
 
 *[Blade Runner 2033 Labyrinth Game Trailer - Building Windows Size](https://youtu.be/l_tfihRqBnI?t=17)*  - 
@@ -115,8 +125,7 @@ My approach was very basic but as I start with all projects, tackle the unknown 
 
 - set position from 3D Sphere Mask for the Building Position via [Collection Parameter](https://www.unrealengine.com/en-US/blog/material-parameter-collections) which was then via Blueprint Construction Script set where the white Sphere is
 
-![3D Sphere Mask colored on Collum via white Sphere Object](Source/WPO/WPO-01-sphere-mask.gif)
-3D Sphere Mask colored on Collum via white Sphere Object
+![3D Sphere Mask colored on Collum via white Sphere Object](Source/WPO/WPO-01-sphere-mask.gif) 3D Sphere Mask colored on Collum via white Sphere Object
 
 ![Collum (Building) Material - Sphere Mask](Source/WPO/WPO-02-SphereMask.png)
 Collum (Building) Material - Sphere Mask
@@ -141,7 +150,7 @@ adding in the Sphere (Target) Blueprint - Construction Script - the Radius (only
 
 - This is all put together in a Level Sequence and animated via Material Parameter + Scale.
 
-![WPO-07.gif](WPO-07.gif)
+![WPO-07.gif](Source/WPO/WPO-08.gif)
 
 ---
 
@@ -168,7 +177,10 @@ Houdini to UE5 a direct method
 
 ### In Engine Procedural Creation (UE5)
 
-![ueicon](https://external-content.duckduckgo.com/ip3/www.unrealengine.com.ico) For the In Engine Procedural City Generation, I needed to upgrade from Unreal 4.27 to Unreal 5.2 which I did in the End anyway.
+![ueicon](https://external-content.duckduckgo.com/ip3/www.unrealengine.com.ico) 
+UE5 {: .label .label-blue }
+
+For the In Engine Procedural City Generation, I needed to upgrade from Unreal 4.27 to Unreal 5.2 which I did in the End anyway.
 
 ![PB-06.png](Source/PB/PB-06.png)
 
@@ -210,7 +222,9 @@ Why I moved on to the next section.
 
 ### Prebuild Asset
 
-#### ![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico) Blender (GeoNodes)
+#### Blender (GeoNodes)
+
+![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico) BLENDER {: .label .label-orange }
 
 Some weeks before the start of the whole Unreal Akira Bomb Project, I did already a very rudimentary version of this Building Setup in Blender with Geometry Nodes, which grow my interest in a proper animated scene of that.
 
@@ -228,7 +242,9 @@ Source File of the Geometry Node Building
 
 ---
 
-#### ![icon](https://external-content.duckduckgo.com/ip3/www.sidefx.com.ico) Houdini
+#### Houdini
+
+![icon](https://external-content.duckduckgo.com/ip3/www.sidefx.com.ico) HOUDINI {: .label .label-orange }
 
 Because in Blender everything still overlapped and had no easy way to increase the polycount ([what I need for the deformation of the WPO](AkiraBomb-Breakdown.md#World%20Position%20Offset%20-%20Building%20Deformation)) by the height of the Buildings or add later UV for each of these Buildings. I decided I recreated this in Houdini in a very similar approach.
 
@@ -304,11 +320,8 @@ For the final release, the video would need audio or sound effects (SFX). Howeve
 
  🆓 For that I looked into some free SFX sites
 
-[Mixkit](https://mixkit.co/free-sound-effects/)
-
-[Freesound](https://freesound.org/)
-
-[Pixabay](https://pixabay.com/sound-effects/)
+| [Mixkit](https://mixkit.co/free-sound-effects/) | [Freesound](https://freesound.org/) | [Pixabay](https://pixabay.com/sound-effects/) |
+|--|--|--|
 
 I started by putting some random SFX together in the Blenders Sequencer together, but I haven´t found everything that I wanted. Also, they definitely needed some tweaking because some were why to long or short in length and I think too high (if that is the right term in that context), etc. Also, I needed really fast some rough timing which I did in Blender by importing the Image Sequence from the Export Unreal Scene via Movie Render Queue.
 
@@ -333,24 +346,25 @@ Or better I mix of both , I made my drawing with transparent background and used
 
 <p align="center" width="100%">
   <img width="32%" src="Source/IF/IF-04.png">
-  <img width="32%" src="Source/IF/IP-11.jpg">
-  <img width="32%" src="Source/IF/IF-07.png">
+  <img width="35%" src="Source/IF/IF-11.jpg">
+  <img width="19.6%" src="Source/IF/IF-07.png">
 </p>
 
-*2023-05-02 - previous Post Shader I did - with scrolling textures*
-*[Diana Lott - "Impact Frames" Shader Effect|noembed](https://www.artstation.com/artwork/mDAly9)*
-*[VFX Apprentice - Drawing|noembed](https://youtu.be/mcOozpmIxLw?t=199)*
+*2023-05-02 - previous created Post Shader* |
+*[Diana Lott - "Impact Frames" Shader Effect](https://www.artstation.com/artwork/mDAly9)* |
+*[VFX Apprentice - Drawing](https://youtu.be/mcOozpmIxLw?t=199)*
 
 
 <p align="center" width="100%">
   <img width="32%" src="Source/IF/IF-08.png">
-  <img width="32%" src="Source/IF/IP-10.jpg">
+  <img width="32%" src="Source/IF/IF-10.jpg">
   <img width="32%" src="Source/IF/IF-09.png">
 </p>
 
-*[Impact Frames Bot|noembed](https://twitter.com/impactframesbot/status/1286222816254328833/photo/3)*
-*[https://www.sakugabooru.com/post/show/2313|noembed](https://www.sakugabooru.com/post/show/2313)*
-*[kViN|noembed](https://twitter.com/Yuyucow/status/775398621030252545/photo/2)*
+*[Impact Frames Bot](https://twitter.com/impactframesbot/status/1286222816254328833/photo/3)* | 
+*[https://www.sakugabooru.com/post/show/2313](https://www.sakugabooru.com/post/show/2313)* | 
+*[kViN](https://twitter.com/Yuyucow/status/775398621030252545/photo/2)*
+
 
 </details>
 
@@ -370,17 +384,17 @@ The Drawing Process was quite I started with a still inverted Frame from the Eng
 
 
 <p align="center" width="100%">
-  <img width="32%" src="Source/IF/IF-02.png">
-  <img width="32%" src="Source/IF/IP-03.jpg">
-  <img width="32%" src="Source/IF/IF-01.png">
+  <img width="32%" src="Source/IF/IF-02.gif">
+  <img width="32%" src="Source/IF/IF-06.gif">
+  <img width="23.4%" src="Source/IF/IF-01.gif">
 </p>
 
 <!-- ![drawing process - starting with one rendered frame - first version](Source/IF/IF-02.gif)
 ![final version - with out Sequence blow](Source/IF/IF-03.gif)
 ![quick tablet drawing test](Source/IF/IF-01.gif) -->
 
-drawing process - starting with one rendered frame - first version
-final version - with out Sequence blow
+drawing process - starting with one rendered frame - first version |
+final version - with out Sequence blow |
 quick tablet drawing test
 
 ---
@@ -399,28 +413,27 @@ This is why I started to collect some different City Lighting Reference. Still, 
 <p align="center" width="100%">
     <img width="32%" src="Source/References/lighting/SL02.jpg"> 
     <img width="32%" src="Source/References/lighting/SL11.jpg">
-    <img width="32%" src="Source/References/lighting/SL14.jpg">
+    <img width="24%" src="Source/References/lighting/SL14.jpg">
 </p>
 
 <p align="center" width="100%">
-    <img width="24%" src="Source/References/lighting/SL04.jpg"> 
-    <img width="24%" src="Source/References/lighting/SL13.jpg">
-    <img width="24%" src="Source/References/lighting/SL10.jpg">
-    <img width="24%" src="Source/References/lighting/SL15.jpg">
+    <img width="26%" src="Source/References/lighting/SL04.jpg"> 
+    <img width="23%" src="Source/References/lighting/SL13.jpg">
+    <img width="22%" src="Source/References/lighting/SL10.jpg">
+    <img width="22%" src="Source/References/lighting/SL15.jpg">
 </p>
 
 <p align="center" width="100%">
-    <img width="24%" src="Source/References/lighting/SL05.jpg"> 
-    <img width="24%" src="Source/References/lighting/SL12.jpg">
-    <img width="24%" src="Source/References/lighting/SL03.jpg">
-    <img width="24%" src="Source/References/lighting/SL09.jpg">
+    <img width="20.5%" src="Source/References/lighting/SL05.jpg"> 
+    <img width="24.2%" src="Source/References/lighting/SL12.jpg">
+    <img width="21%" src="Source/References/lighting/SL03.jpg">
+    <img width="24.7%" src="Source/References/lighting/SL09.jpg">
 </p>
-
 <p align="center" width="100%">
-    <img width="24%" src="Source/References/lighting/SL06.jpg"> 
+    <img width="18%" src="Source/References/lighting/SL06.jpg"> 
     <img width="24%" src="Source/References/lighting/SL08.jpg">
-    <img width="24%" src="Source/References/lighting/SL07.jpg">
-    <img width="24%" src="Source/References/lighting/SL01.jpg">
+    <img width="25%" src="Source/References/lighting/SL07.jpg">
+    <img width="26%" src="Source/References/lighting/SL01.jpg">
 </p>
 
 </details>
