@@ -1,6 +1,4 @@
 ---
-layout: default
-title: About - Anton Richardt
 nav_order: 1
 ---
 
