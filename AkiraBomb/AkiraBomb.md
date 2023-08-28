@@ -16,18 +16,11 @@ nav_order: 2
 
 <div class="code-example" markdown="1">
 
-| [High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400) |[Artstation](https://antonrichardt.artstation.com/projects/YB4NRb)|
-|--|--|--|
-
-<div class="code-example" markdown="1">
-
 <span class="fs-4">
 [High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif){: .btn .btn-green}
 [Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400){: .btn .btn-purple}
 [Artstation](https://antonrichardt.artstation.com/projects/YB4NRb){: .btn .btn-blue}
 </span>
-
-</div>
 
 </div>
 
