@@ -10,4 +10,5 @@ After almost 7 years I left Ubisoft Germany to join Tuatara Games and learn and 
 Some Tools I work with:
 
 [Obsidian](assets/tools/Obsidian.md)
-[Akira Bomb UE5 Docu](https://github.com/arfx/webpage/blob/main/AkiraBomb/AkiraBomb.md)
+
+[Akira Bomb UE5 Docu](AkiraBomb/AkiraBomb.md)
