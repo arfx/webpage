@@ -3,4 +3,6 @@ logo: /assets/images/anton.jpg
 description: Senior VFX Artist @Tuatara Games.
 #show_downloads: true
 google_analytics:
-theme: minima
+#theme: minima
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
