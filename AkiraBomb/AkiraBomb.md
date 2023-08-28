@@ -29,13 +29,13 @@ nav_order: 2
 - [Pre-production](#pre-production)
   * [🎞 References - Overall Scene](#-references---overall-scene)
 - [Production](#production)
-  * 🌍 [World Position Offset - Building Deformation](#🌍-world-position-offset---building-deformation)
-  * 🏬 [Procedural City Generation](#🏬-procedural-city-generation)
-  * ☁️ [Niagara Fluids - Clouds Motion](#☁️-niagara-fluids---clouds-motion)
+  * 🌍 [World Position Offset - Building Deformation](#-world-position-offset---building-deformation)
+  * 🏬 [Procedural City Generation](#-procedural-city-generation)
+  * ☁️ [Niagara Fluids - Clouds Motion](#-niagara-fluids---clouds-motion)
 - [Challenges - Struggle](#challenges---struggle)
-  * 🎵 [SFX](#🎵-sfx)
-  * 💥 [Impact Frames](#💥-impact-frames)
-  * ⛅ [Scene Lighting](#⛅-scene-lighting)
+  * 🎵 [SFX](#-sfx)
+  * 💥 [Impact Frames](#-impact-frames)
+  * ⛅ [Scene Lighting](#-scene-lighting)
 - [Post Production](#post-production)
 
 
@@ -304,11 +304,11 @@ For the final release, the video would need audio or sound effects (SFX). Howeve
 
  🆓 For that I looked into some free SFX sites
 
-[Download Free Sound Effects for Videos | Mixkit](https://mixkit.co/free-sound-effects/)
+[Mixkit](https://mixkit.co/free-sound-effects/)
 
-[Freesound - Freesound](https://freesound.org/)
+[Freesound](https://freesound.org/)
 
-[80,000+ Free Sound Effects for Download - Pixabay - Pixabay](https://pixabay.com/sound-effects/)
+[Pixabay](https://pixabay.com/sound-effects/)
 
 I started by putting some random SFX together in the Blenders Sequencer together, but I haven´t found everything that I wanted. Also, they definitely needed some tweaking because some were why to long or short in length and I think too high (if that is the right term in that context), etc. Also, I needed really fast some rough timing which I did in Blender by importing the Image Sequence from the Export Unreal Scene via Movie Render Queue.
 
@@ -324,25 +324,35 @@ I had also been playing around with post FX shaders for a few weeks before, espe
 
 Or better I mix of both , I made my drawing with transparent background and used the invert flip from the post FX shader and the InEngine footage.
 
+
+<details>
+<summary>
+
 ### Reference - Impact Frame
+</summary>
 
-![2023-05-02 - previous Post Shader I did - with scrolling textures](Source/IF/IF-04.png)
-2023-05-02 - previous Post Shader I did - with scrolling textures
+<p align="center" width="100%">
+  <img width="32%" src="Source/IF/IF-04.png">
+  <img width="32%" src="Source/IF/IP-11.jpg">
+  <img width="32%" src="Source/IF/IF-07.png">
+</p>
 
-![Diana Lott - "Impact Frames" Shader Effect](IP-11.jpg)
-[Diana Lott - "Impact Frames" Shader Effect|noembed](https://www.artstation.com/artwork/mDAly9)
+*2023-05-02 - previous Post Shader I did - with scrolling textures*
+*[Diana Lott - "Impact Frames" Shader Effect|noembed](https://www.artstation.com/artwork/mDAly9)*
+*[VFX Apprentice - Drawing|noembed](https://youtu.be/mcOozpmIxLw?t=199)*
 
-![VFX Apprentice - Drawing](Source/IF/IF-07.png)
-[VFX Apprentice - Drawing|noembed](https://youtu.be/mcOozpmIxLw?t=199)
 
-![Impact Frames Bot - AMV](Source/IF/IF-08.png)
-[Impact Frames Bot|noembed](https://twitter.com/impactframesbot/status/1286222816254328833/photo/3)
+<p align="center" width="100%">
+  <img width="32%" src="Source/IF/IF-08.png">
+  <img width="32%" src="Source/IF/IP-10.jpg">
+  <img width="32%" src="Source/IF/IF-09.png">
+</p>
 
-![https://www.sakugabooru.com/post/show/2313](Source/IF/IF-10.jpg)
-[https://www.sakugabooru.com/post/show/2313|noembed](https://www.sakugabooru.com/post/show/2313)
+*[Impact Frames Bot|noembed](https://twitter.com/impactframesbot/status/1286222816254328833/photo/3)*
+*[https://www.sakugabooru.com/post/show/2313|noembed](https://www.sakugabooru.com/post/show/2313)*
+*[kViN|noembed](https://twitter.com/Yuyucow/status/775398621030252545/photo/2)*
 
-![kViN](Source/IF/IF-09.png)
-[kViN|noembed](https://twitter.com/Yuyucow/status/775398621030252545/photo/2)
+</details>
 
 ### Engine Shader - Post Effect
 
@@ -358,13 +368,19 @@ In the beginning it was very important for me that I could animated some of thes
 
 The Drawing Process was quite I started with a still inverted Frame from the Engine and drew over it.
 
-![drawing process - starting with one rendered frame - first version](Source/IF/IF-02.gif)
-drawing process - starting with one rendered frame - first version
 
+<p align="center" width="100%">
+  <img width="32%" src="Source/IF/IF-02.png">
+  <img width="32%" src="Source/IF/IP-03.jpg">
+  <img width="32%" src="Source/IF/IF-01.png">
+</p>
+
+<!-- ![drawing process - starting with one rendered frame - first version](Source/IF/IF-02.gif)
 ![final version - with out Sequence blow](Source/IF/IF-03.gif)
-final version - with out Sequence blow
+![quick tablet drawing test](Source/IF/IF-01.gif) -->
 
-![quick tablet drawing test](Source/IF/IF-01.gif)
+drawing process - starting with one rendered frame - first version
+final version - with out Sequence blow
 quick tablet drawing test
 
 ---
@@ -374,23 +390,59 @@ For the Scene Lighting, I had at the beginning really a direction in my mind. Fr
 
 This is why I started to collect some different City Lighting Reference. Still, after that, I wasn´t so sure which road to go.
 
-### Reference - Lightning
+<details>
+<summary>
 
-![SL02.jpg](Source/References/lighting/SL02.jpg)
+### Reference - Lightning
+</summary>
+
+<p align="center" width="100%">
+    <img width="32%" src="Source/References/lighting/SL02.jpg"> 
+    <img width="32%" src="Source/References/lighting/SL11.jpg">
+    <img width="32%" src="Source/References/lighting/SL14.jpg">
+</p>
+
+<p align="center" width="100%">
+    <img width="24%" src="Source/References/lighting/SL04.jpg"> 
+    <img width="24%" src="Source/References/lighting/SL13.jpg">
+    <img width="24%" src="Source/References/lighting/SL10.jpg">
+    <img width="24%" src="Source/References/lighting/SL15.jpg">
+</p>
+
+<p align="center" width="100%">
+    <img width="24%" src="Source/References/lighting/SL05.jpg"> 
+    <img width="24%" src="Source/References/lighting/SL12.jpg">
+    <img width="24%" src="Source/References/lighting/SL03.jpg">
+    <img width="24%" src="Source/References/lighting/SL09.jpg">
+</p>
+
+<p align="center" width="100%">
+    <img width="24%" src="Source/References/lighting/SL06.jpg"> 
+    <img width="24%" src="Source/References/lighting/SL08.jpg">
+    <img width="24%" src="Source/References/lighting/SL07.jpg">
+    <img width="24%" src="Source/References/lighting/SL01.jpg">
+</p>
+
+</details>
+
+<!-- ![SL02.jpg](Source/References/lighting/SL02.jpg)
 ![SL11.jpg](Source/References/lighting/SL11.jpg)
 ![SL14.jpg](Source/References/lighting/SL14.jpg)
+
 ![SL04.jpg](Source/References/lighting/SL04.jpg)
 ![SL13.jpg](Source/References/lighting/SL13.jpg)
 ![SL10.jpg](Source/References/lighting/SL10.jpg)
 ![SL15.jpg](Source/References/lighting/SL15.jpg)
+
 ![SL05.jpg](Source/References/lighting/SL05.jpg)
 ![SL12.jpg](Source/References/lighting/SL12.jpg)
 ![SL03.jpg](Source/References/lighting/SL03.jpg)
 ![SL09.jpg](Source/References/lighting/SL09.jpg)
+
 ![SL06.jpg](Source/References/lighting/SL06.jpg)
 ![SL08.jpg](Source/References/lighting/SL08.jpg)
 ![SL07.jpg](Source/References/lighting/SL07.jpg)
-![SL01.jpg](Source/References/lighting/SL01.jpg)
+![SL01.jpg](Source/References/lighting/SL01.jpg) -->
 
 ### Lightning
 
