@@ -20,7 +20,7 @@ After almost 7 years I left Ubisoft Germany to join Tuatara Games and learn and 
 
 <div class="code-example" markdown="1">
 
-<span class="fs-8">
+<span class="fs-4">
 [Artstation](https://www.artstation.com/antonrichardt){: .btn .btn-blue}
 [Twitter / X](https://twitter.com/antonsfx){: .btn .btn-blue}
 [Linkedin](https://www.linkedin.com/in/antonrichardt/){: .btn .btn-blue}
