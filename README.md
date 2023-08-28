@@ -1,5 +1,6 @@
 ---
-nav_order: 1
+title: About
+layout: home
 ---
 
 
