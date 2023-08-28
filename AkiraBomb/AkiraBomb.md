@@ -1,3 +1,11 @@
+---
+layout: default
+title: Akira Bomb - Breakdown
+nav_order: 2
+has_children: true
+---
+
+
 # Akira Bomb - Breakdown
 
 

@@ -1,4 +1,6 @@
 ---
+layout: default
+parent: Obsidiain
 %% type : Note
 Tags: learn, obsidian
 ---

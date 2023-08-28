@@ -1,3 +1,10 @@
+---
+layout: default
+title: Obsidian Info Collection
+nav_order: 3
+has_children: true
+---
+
 # Obsidian
 
 - [Callouts](obsidian/Obsidian-Callouts.md)
