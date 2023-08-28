@@ -1,7 +1,6 @@
 ---
 layout: default
 parent: Obsidian
-%% type : Note
 Tags: 
 ---
 # Obsidian - Column

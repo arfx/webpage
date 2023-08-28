@@ -12,11 +12,14 @@ nav_order: 2
    <img src="Source/Final/Akira-Bomb-UE5-verysmall.gif" width="1200"> 
 </p>
 
-|---|---|---|
-|---|---|---|
-|[High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400)| [Artstation](https://antonrichardt.artstation.com/projects/YB4NRb)
-|---|---|---|
 
+
+<div class="code-example" markdown="1">
+
+| [High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400) |[Artstation](https://antonrichardt.artstation.com/projects/YB4NRb)|
+|--|--|--|
+
+</div>
 
 
 <!--- ![Final - Video with Audio](Source/Final/Akira-Bomb-UE5.mov) --->
