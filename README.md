@@ -1,8 +1,3 @@
----
-layout: default
-title: About - Anton Richardt
-nav_order: 1
----
 
 # Anton Richardt
 Hi, my name is Anton and I am a Senior VFX Artist at Tuatara Games (previously at Ubisoft Germany BlueByte - Lead VFX Artist) and currently located in Brandenburg/Germany close to Berlin.
@@ -13,8 +8,6 @@ Why I could start directly after the Academy directly as a Junior VFX / Technica
 
 After almost 7 years I left Ubisoft Germany to join Tuatara Games and learn and grow even further as VFX Artist. Now I do even more awesome VFX work and combine that with my interest in Technical stuff with procedural art (Houdini) as well,
 
-Some Tools I work with:
-
-[Obsidian](assets/tools/Obsidian.md)
+Some Stuff I do or work with:
 
 [Akira Bomb UE5 Docu](AkiraBomb/AkiraBomb.md)
