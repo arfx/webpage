@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Obsidiain
+parent: Obsidian
 %% type : Note
 Tags: 
 ---
