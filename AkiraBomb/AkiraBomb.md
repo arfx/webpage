@@ -12,9 +12,11 @@ nav_order: 2
    <img src="Source/Final/Akira-Bomb-UE5-verysmall.gif" width="1200"> 
 </p>
 
+|---|---|---|
+|---|---|---|
+|[High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400)| [Artstation](https://antonrichardt.artstation.com/projects/YB4NRb)
+|---|---|---|
 
-|[High-Quality Gif](Source/Final/Akira-Bomb-UE5.gif)|[Video with Audio](https://twitter.com/antonsfx/status/1684897440166502400)|
-|---|---|
 
 
 <!--- ![Final - Video with Audio](Source/Final/Akira-Bomb-UE5.mov) --->
@@ -32,11 +34,11 @@ nav_order: 2
   * 🌍 [World Position Offset - Building Deformation](#-world-position-offset---building-deformation)
   * 🏬 [Procedural City Generation](#-procedural-city-generation)
     + [multiple Methods](#multiple-methods)
-    + [In Engine Procedural Creation (UE5)](#in-engine-procedural-creation--ue5-)
+    + [In Engine Procedural Creation (UE5)](#in-engine-procedural-creation-ue5)
     + [Prebuild Asset](#prebuild-asset)
-      - [Blender (GeoNodes)](#-blender--geonodes-)
+      - [Blender (GeoNodes)](#blender-geonodes)
       - [Houdini](#-houdini)
-  * ☁️ [Niagara Fluids - Clouds Motion](#-niagara-fluids---clouds-motion)
+  * ☁️ [Niagara Fluids - Clouds Motion](#niagara-fluids---clouds-motion)
 - [Challenges - Struggle](#challenges---struggle)
   * 🎵 [SFX](#-sfx)
   * 💥 [Impact Frames](#-impact-frames)
@@ -224,7 +226,8 @@ Why I moved on to the next section.
 
 #### Blender (GeoNodes)
 
-![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico) BLENDER {: .label .label-orange }
+{: .note }
+> ![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico)
 
 Some weeks before the start of the whole Unreal Akira Bomb Project, I did already a very rudimentary version of this Building Setup in Blender with Geometry Nodes, which grow my interest in a proper animated scene of that.
 

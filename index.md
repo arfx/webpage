@@ -16,3 +16,5 @@ Why I could start directly after the Academy directly as a Junior VFX / Technica
 
 After almost 7 years I left Ubisoft Germany to join Tuatara Games and learn and grow even further as VFX Artist. Now I do even more awesome VFX work and combine that with my interest in Technical stuff with procedural art (Houdini) as well,
 
+|[Artstation](https://www.artstation.com/antonrichardt)|[Twitter/X](https://twitter.com/antonsfx)|[Mail]()|[Linkedin](https://www.linkedin.com/in/antonrichardt/)|
+|--|--|--|--|
