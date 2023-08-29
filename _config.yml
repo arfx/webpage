@@ -2,11 +2,7 @@ title: Anton Richardt
 
 description: Work from Anton Richardt Senior VFX Artist @Tuatara Games.
 
-#remote_theme: just-the-docs/just-the-docs
-
-
-
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
 url: https://arfx.github.io/webpage/
