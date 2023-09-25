@@ -41,35 +41,6 @@ nav_order: 2
 
 ---
 
-# Table of Content
-
-- [Introduction](#introduction)
-- [Background-Story](#background-story)
-- [Pre-production](#pre-production)
-  * [🎞 References - Overall Scene](#-references---overall-scene)
-- [Production](#production)
-  * 🌍 [World Position Offset - Building Deformation](#-world-position-offset---building-deformation)
-  * 🏬 [Procedural City Generation](#-procedural-city-generation)
-    + [multiple Methods](#multiple-methods)
-    + [In Engine Procedural Creation (UE5)](#in-engine-procedural-creation-ue5)
-    + [Prebuild Asset](#prebuild-asset)
-      - [Blender (GeoNodes)](#blender-geonodes)
-      - [Houdini](#-houdini)
-  * ☁️ [Niagara Fluids - Clouds Motion](#niagara-fluids---clouds-motion)
-- [Challenges - Struggle](#challenges---struggle)
-  * 🎵 [SFX](#-sfx)
-  * 💥 [Impact Frames](#-impact-frames)
-    + [Reference - Impact Frame](#reference---impact-frame)
-    + [Engine Shader - Post Effect](#engine-shader---post-effect)
-    + [Drawing](#drawing)
-  * ⛅ [Scene Lighting](#-scene-lighting)
-    + [Reference - Lightning](#reference---lightning)
-    + [Lightning](#lightning)
-- [Post Production](#post-production)
-
-
----
-
 # Introduction
 
 I have recreated a version of the famous Akira Sphere Bomb Sequence from the film "Akira" using Unreal Engine 5. This version showcases the breathtaking depiction of destructive power, as a massive energy wave engulfs the city of Neo-Tokyo in a stunning combination of light and destruction.
