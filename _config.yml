@@ -13,5 +13,5 @@ url: https://arfx.github.io/webpage/
 
 callouts:
   note-title:
-    title: Note
-    color: grey
+    title: note-title
+    color: blue
