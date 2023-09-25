@@ -167,8 +167,8 @@ Houdini to UE5 a direct method
 
 ### In Engine Procedural Creation (UE5)
 
-![ueicon](https://external-content.duckduckgo.com/ip3/www.unrealengine.com.ico) 
-UE5 {: .label .label-blue }
+{: .note-title }
+> ![ueicon](https://external-content.duckduckgo.com/ip3/www.unrealengine.com.ico) Unreal Engine 5
 
 For the In Engine Procedural City Generation, I needed to upgrade from Unreal 4.27 to Unreal 5.2 which I did in the End anyway.
 
@@ -214,8 +214,8 @@ Why I moved on to the next section.
 
 #### Blender (GeoNodes)
 
-{: .note }
-> ![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico)
+{: .note-title }
+> ![icon](https://external-content.duckduckgo.com/ip3/www.blender.org.ico) BLENDER
 
 Some weeks before the start of the whole Unreal Akira Bomb Project, I did already a very rudimentary version of this Building Setup in Blender with Geometry Nodes, which grow my interest in a proper animated scene of that.
 
@@ -235,7 +235,8 @@ Source File of the Geometry Node Building
 
 #### Houdini
 
-![icon](https://external-content.duckduckgo.com/ip3/www.sidefx.com.ico) HOUDINI {: .label .label-orange }
+{: .note-title }
+> ![icon](https://external-content.duckduckgo.com/ip3/www.sidefx.com.ico) HOUDINI
 
 Because in Blender everything still overlapped and had no easy way to increase the polycount ([what I need for the deformation of the WPO](AkiraBomb-Breakdown.md#World%20Position%20Offset%20-%20Building%20Deformation)) by the height of the Buildings or add later UV for each of these Buildings. I decided I recreated this in Houdini in a very similar approach.
 

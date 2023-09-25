@@ -9,3 +9,9 @@ url: https://arfx.github.io/webpage/
 
 #aux_links: # remove if you don't want this link to appear on your pages
   #Template Repository: https://arfx.github.io/webpage/
+
+
+callouts:
+  note-title:
+    title: Note
+    color: grey
